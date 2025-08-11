@@ -9,7 +9,6 @@ This portfolio contains engineering projects related to propulsion, rocket stagi
   
 ## Tools Used
 - Python, MATLAB (in progress)
-- SolidWorks, Onshape
 - GitHub, Bambu Studio
 
 ## Author
