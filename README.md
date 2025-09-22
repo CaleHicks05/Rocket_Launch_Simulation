@@ -6,9 +6,9 @@ Python-based simulation (imported to MATLAB) modeling a two-stage rocket launch,
 ---
 
 ## Features
--**Inputs**: Rocket mass (full/dry), thrust, drag coefficients, stage-separation timing.
--**Outputs**: Trajectory, velocity, and apogee data visualizations.
--**Methodology**: Euler integration with modular code for scalability, validated for orbital accuracy.
+- **Inputs**: Rocket mass (full/dry), thrust, drag coefficients, stage-separation timing.
+- **Outputs**: Trajectory, velocity, and apogee data visualizations.
+- **Methodology**: Euler integration with modular code for scalability, validated for orbital accuracy.
 
 ---
 
