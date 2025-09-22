@@ -1,6 +1,6 @@
-# Rocket Simulation Project
+# Two-Stage Rocket Launch Simulation
 
-## Two-Stage Rocket Launch Simulation
+## Overview
 Python-based simulation (imported to MATLAB) modeling a two-stage rocket launch, incorporating air drag, gravitational variation, stage separation, and orbital insertion. Designed for aerospace engineering applications, such as NASA’s satellite launch systems.
 
 ---
