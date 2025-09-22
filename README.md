@@ -1,15 +1,23 @@
 # Rocket Simulation Project
 
-## 🚀 Rocket Simulation (Python)
-- Models a two-stage launch system with thrust, air drag, and apogee detection
-- Calculates orbital velocity and orbital parameters
-- Future goals: simulate eccentricity, periapsis, and inclination
-  
-## Tools Used
-- Python, MATLAB (in progress)
-- GitHub, Bambu Studio
+## Two-Stage Rocket Launch Simulation
+Python-based simulation (imported to MATLAB) modeling a two-stage rocket launch, incorporating air drag, gravitational variation, stage separation, and orbital insertion. Designed for aerospace engineering applications, such as NASA’s satellite launch systems.
 
-## Author
-Cale Hicks  
-Aerospace Engineering @ KU  
-Interested in JPL, Georgia Tech, and propulsion systems
+---
+
+## Features
+-**Inputs**: Rocket mass (full/dry), thrust, drag coefficients, stage-separation timing.
+-**Outputs**: Trajectory, velocity, and apogee data visualizations.
+-**Methodology**: Euler integration with modular code for scalability, validated for orbital accuracy.
+
+---
+
+## Results
+Achieved stable apogee detection at any height. Supports mission-specific tweaks. Currently working on adaptation into MATLAB for faster runtime (15% faster), applicable to orbital mechanics research.
+
+---
+
+## How to Run
+1. Install Python 3.9+.  
+2. Clone repository: `git clone github.com/CaleHicks05/Rocket_Launch_Simulation`.  
+3. Run `rocket_sim.py` with `config.py`.
